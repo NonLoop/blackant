@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑蚁工作室 BlackAnt Studio — 精品应用系列</title>
+<meta name="description" content="BlackAnt Studio 黑蚁工作室 — 小而美的 iOS 应用：猴子记账、迷盒星球、恋语日记、恋爱话术秘籍、汉字小课堂、智慧大训练、连连对对碰。">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-title-zh="黑蚁工作室 BlackAnt Studio — 精品应用系列" data-title-en="BlackAnt Studio — Crafted iOS Apps">
+
+<!-- ======== NAV ======== -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#0b0d12" stroke-width="2" stroke-linecap="round">
+          <circle cx="6" cy="12" r="2.4" fill="#0b0d12" stroke="none"/>
+          <circle cx="12" cy="9" r="3.2" fill="#0b0d12" stroke="none"/>
+          <path d="M12 12.2v4"/>
+          <path d="M12 16.2l-2 4M12 16.2l2 4"/>
+          <path d="M9.5 8.5 4 5M14.5 8.5 20 5"/>
+        </svg>
+      </span>
+      <span>黑蚁工作室<small data-i18n="brand.sub">BLACK ANT STUDIO</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="menu">☰</button>
+    <nav class="nav-links">
+      <a href="index.html#works" class="active" data-i18n="nav.works">作品</a>
+      <a href="about.html" data-i18n="nav.about">关于</a>
+      <a href="contact.html" data-i18n="nav.contact">联系我们</a>
+      <button class="lang-btn" onclick="__toggleLang(this, event)">EN</button>
+    </nav>
+  </div>
+</header>
+
+<!-- ======== HERO ======== -->
+<section class="hero">
+  <div class="aurora"><span></span><span></span><span></span></div>
+  <div class="grain"></div>
+  <div class="container hero-inner">
+    <div class="hero-badge reveal visible"><span class="dot"></span><span data-i18n="hero.badge">iOS 独立开发工作室 · 精品应用系列</span></div>
+    <h1><span data-i18n="hero.title1">小而美的应用，</span><br><span class="grad" data-i18n="hero.title2">认真对待每一次体验</span></h1>
+    <p class="sub" data-i18n="hero.sub">从记账到汉字启蒙，从恋爱日记到益智游戏 —— 我们用心打磨每一款产品，让科技温柔地融入你的生活。</p>
+    <div class="hero-cta">
+      <a href="#works" class="btn btn-primary">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18.5h2"/></svg>
+        <span data-i18n="hero.cta1">浏览作品</span>
+      </a>
+      <a href="about.html" class="btn btn-ghost" data-i18n="hero.cta2">了解我们</a>
+    </div>
+    <div class="stats">
+      <div class="stat reveal d1"><b>9</b><span data-i18n="stat.apps">精品应用</span></div>
+      <div class="stat reveal d2"><b>5+</b><span data-i18n="stat.cats">多元品类</span></div>
+      <div class="stat reveal d3"><b>5.0★</b><span data-i18n="stat.rating">品质承诺</span></div>
+      <div class="stat reveal d4"><b>100%</b><span data-i18n="stat.privacy">隐私至上</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======== WORKS ======== -->
+<section class="section" id="works">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-kicker" data-i18n="works.kicker">OUR APPS</span>
+      <h2 data-i18n="works.title">探索我们的作品</h2>
+      <p data-i18n="works.sub">每一款应用，都源于对生活的细微观察。点击卡片，查看完整介绍。</p>
+    </div>
+
+    <div class="filters">
+      <button class="filter active" data-filter="all" data-i18n="filter.all">全部</button>
+      <button class="filter" data-filter="finance" data-i18n="filter.finance">财务</button>
+      <button class="filter" data-filter="utility" data-i18n="filter.utility">工具</button>
+      <button class="filter" data-filter="education" data-i18n="filter.education">教育</button>
+      <button class="filter" data-filter="game" data-i18n="filter.game">娱乐</button>
+      <button class="filter" data-filter="reference" data-i18n="filter.reference">参考</button>
+    </div>
+
+    <div class="grid">
+
+      <!-- 猴子记账 -->
+      <article class="app-card reveal" data-cat="finance">
+        <div class="card-glow g-monkey">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="17" fill="#3ddba6" opacity=".25"/><circle cx="24" cy="24" r="17" stroke="#8ef2c9" stroke-width="2.5"/><path d="M19 18v12M19 18h4.5a4 4 0 0 1 0 8H19M29 18v12M29 18h3M29 22h3.5" stroke="#8ef2c9" stroke-width="3" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.monkey.cat">财务</span>
+          <h3 data-i18n="app.monkey.name">猴子记账</h3>
+          <div class="en-name">Monkey Ledger</div>
+          <p data-i18n="app.monkey.tag">苹果端专属，记账小白也能秒上手</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/monkey.html" data-i18n="card.view">查看详情</a>
+            <a class="card-store" target="_blank" rel="noopener" href="https://apps.apple.com/cn/app/%E7%8C%B4%E5%AD%90%E8%AE%B0%E8%B4%A6/id6754389032" data-i18n="card.store">App Store</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 迷盒星球 -->
+      <article class="app-card reveal d1" data-cat="reference">
+        <div class="card-glow g-mystery">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6 42 15v18L24 42 6 33V15L24 6z" stroke="#c4b5fd" stroke-width="2.5" stroke-linejoin="round"/><path d="M24 6v18m0 0L6 15m18 9 18-9" stroke="#c4b5fd" stroke-width="2" opacity=".55"/><circle cx="24" cy="28" r="1.8" fill="#7dd3fc"/><path d="M24 31.5v5" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round"/><circle cx="13" cy="10" r="1.4" fill="#fff"/><circle cx="37" cy="8" r="1.2" fill="#fff"/><circle cx="40" cy="30" r="1.3" fill="#fff"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.mystery.cat">参考资料</span>
+          <h3 data-i18n="app.mystery.name">迷盒星球</h3>
+          <div class="en-name">Mystery Box Planet</div>
+          <p data-i18n="app.mystery.tag">世界未解之谜聚合平台</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/mystery.html" data-i18n="card.view">查看详情</a>
+            <a class="card-store" target="_blank" rel="noopener" href="https://apps.apple.com/cn/app/%E8%BF%B7%E6%9C%B1%E6%98%9F%E7%90%83/id6754884404" data-i18n="card.store">App Store</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 恋语日记 -->
+      <article class="app-card reveal d2" data-cat="utility">
+        <div class="card-glow g-diary">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 40s-14-8.5-14-19a8 8 0 0 1 14-5.3A8 8 0 0 1 38 21c0 10.5-14 19-14 19z" stroke="#fda4af" stroke-width="2.5" stroke-linejoin="round"/><path d="M24 20v12m0-8h8m-8-4h6" stroke="#fda4af" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.diary.cat">工具</span>
+          <h3 data-i18n="app.diary.name">恋语日记</h3>
+          <div class="en-name">Lianyu Diary</div>
+          <p data-i18n="app.diary.tag">把每一份爱意，都写成专属你们的浪漫史诗</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/diary.html" data-i18n="card.view">查看详情</a>
+            <a class="card-store" target="_blank" rel="noopener" href="https://apps.apple.com/cn/app/%E6%81%8B%E8%AF%AD%E6%97%A5%E8%AE%B0/id6755086052" data-i18n="card.store">App Store</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 恋爱话术秘籍 -->
+      <article class="app-card reveal" data-cat="utility">
+        <div class="card-glow g-script">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M40 10a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H20l-9 8v-8h-3a4 4 0 0 1-4-4V14a4 4 0 0 1 4-4h33z" stroke="#fcd34d" stroke-width="2.5" stroke-linejoin="round"/><path d="M24 27.5s-7-4.3-7-9.4a4 4 0 0 1 7-2.6 4 4 0 0 1 7 2.6c0 5.1-7 9.4-7 9.4z" fill="#fcd34d"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.script.cat">工具</span>
+          <h3 data-i18n="app.script.name">恋爱话术秘籍</h3>
+          <div class="en-name">Love Talk Secrets</div>
+          <p data-i18n="app.script.tag">你的专属恋爱升温神器</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/script.html" data-i18n="card.view">查看详情</a>
+            <a class="card-store" target="_blank" rel="noopener" href="https://apps.apple.com/cn/app/%E6%81%8B%E7%88%B1%E8%AF%9D%E6%9C%AF%E7%A7%98%E7%B1%8D/id6754535011" data-i18n="card.store">App Store</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 汉字小课堂 -->
+      <article class="app-card reveal d1" data-cat="education">
+        <div class="card-glow g-hanzi">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="6" width="36" height="36" rx="9" stroke="#fde68a" stroke-width="2.5"/><text x="24" y="31.5" text-anchor="middle" font-size="21" font-weight="700" fill="#fde68a" font-family="'PingFang SC','Noto Sans SC',sans-serif">汉</text></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.hanzi.cat">教育</span>
+          <h3 data-i18n="app.hanzi.name">汉字小课堂</h3>
+          <div class="en-name">Hanzi Classroom</div>
+          <p data-i18n="app.hanzi.tag">宝宝的汉字启蒙第一课</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/hanzi.html" data-i18n="card.view">查看详情</a>
+            <a class="card-store" target="_blank" rel="noopener" href="https://apps.apple.com/cn/app/%E6%B1%89%E5%AD%97%E5%B0%8F%E8%AF%BE%E5%A0%82/id6754771108" data-i18n="card.store">App Store</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 智慧大训练 -->
+      <article class="app-card reveal d2" data-cat="game">
+        <div class="card-glow g-tictac">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="32" height="32" rx="7" stroke="#7dd3fc" stroke-width="2.5"/><path d="M24 8v32M8 24h32" stroke="#7dd3fc" stroke-width="2" opacity=".7"/><path d="M13 13l6 6m0-6l-6 6" stroke="#fcd34d" stroke-width="2.6" stroke-linecap="round"/><circle cx="31" cy="31" r="3.4" stroke="#fb7185" stroke-width="2.6"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.tictac.cat">娱乐</span>
+          <h3 data-i18n="app.tictac.name">智慧大训练</h3>
+          <div class="en-name">Smart Nine</div>
+          <p data-i18n="app.tictac.tag">经典九宫棋 · 欢乐双人对战</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/tictac.html" data-i18n="card.view">查看详情</a>
+            <a class="card-store" target="_blank" rel="noopener" href="https://apps.apple.com/ph/app/%E6%99%BA%E6%85%A7%E5%A4%A7%E8%AE%AD%E7%BB%83-%E7%BB%8F%E5%85%B8%E4%B9%9D%E5%AE%AB%E6%A3%8B-%E6%AC%A2%E4%B9%90%E5%8F%8C%E4%BA%BA%E5%AF%B9%E6%88%98/id6740632706" data-i18n="card.store">App Store</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 连连对对碰 -->
+      <article class="app-card reveal" data-cat="game">
+        <div class="card-glow g-match">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="6" width="16" height="16" rx="5" stroke="#a5f3fc" stroke-width="2.5"/><rect x="26" y="26" width="16" height="16" rx="5" stroke="#a5f3fc" stroke-width="2.5"/><path d="M22 14h10a4 4 0 0 1 4 4v8" stroke="#a5f3fc" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 5"/><circle cx="14" cy="14" r="3.4" fill="#a5f3fc"/><circle cx="34" cy="34" r="3.4" fill="#a5f3fc"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.match.cat">娱乐</span>
+          <h3 data-i18n="app.match.name">连连对对碰</h3>
+          <div class="en-name">Link &amp; Match</div>
+          <p data-i18n="app.match.tag">经典配对消除 · 碎片时间解压神器</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/match.html" data-i18n="card.view">查看详情</a>
+            <a class="card-store" target="_blank" rel="noopener" href="https://apps.apple.com/ph/app/%E8%BF%9E%E8%BF%9E%E5%AF%B9%E5%AF%B9%E7%A2%B0/id6754565225" data-i18n="card.store">App Store</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 方块叠叠乐 -->
+      <article class="app-card reveal d1" data-cat="game">
+        <div class="card-glow g-block">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="10" y="8" width="12" height="12" rx="3" stroke="#a3e635" stroke-width="2.5"/><rect x="22" y="8" width="12" height="12" rx="3" fill="#22d3ee" opacity=".55"/><rect x="16" y="20" width="12" height="12" rx="3" fill="#22d3ee" opacity=".8"/><rect x="28" y="20" width="12" height="12" rx="3" stroke="#a3e635" stroke-width="2.5"/><rect x="22" y="32" width="12" height="12" rx="3" fill="#a3e635" opacity=".6"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.block.cat">娱乐</span>
+          <h3 data-i18n="app.block.name">方块叠叠乐</h3>
+          <div class="en-name">Block Stacking Fun</div>
+          <p data-i18n="app.block.tag">指尖叠块新体验 · 重温经典乐趣</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/block.html" data-i18n="card.view">查看详情</a>
+            <a class="card-store" target="_blank" rel="noopener" href="https://apps.apple.com/ph/app/%E6%96%B9%E5%9D%97%E5%8F%A0%E5%8F%A0%E4%B9%90/id6754565111" data-i18n="card.store">App Store</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 指尖趣盒 -->
+      <article class="app-card reveal d2" data-cat="game">
+        <div class="card-glow g-funbox">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="7" y="7" width="34" height="34" rx="9" stroke="#facc15" stroke-width="2.5"/><circle cx="16" cy="16" r="2.2" fill="#facc15"/><circle cx="32" cy="16" r="2.2" fill="#34d399"/><circle cx="24" cy="24" r="2.2" fill="#facc15"/><circle cx="16" cy="32" r="2.2" fill="#34d399"/><circle cx="32" cy="32" r="2.2" fill="#facc15"/><path d="M7 24h34M24 7v34" stroke="#facc15" stroke-width="1.6" opacity=".45"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.funbox.cat">娱乐</span>
+          <h3 data-i18n="app.funbox.name">指尖趣盒</h3>
+          <div class="en-name">Fingertip Fun Box</div>
+          <p data-i18n="app.funbox.tag">6 合 1 小游戏合集 · 碎片时间快乐补给站</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/funbox.html" data-i18n="card.view">查看详情</a>
+            <a class="card-store" target="_blank" rel="noopener" href="https://apps.apple.com/ph/app/%E6%8C%87%E5%B0%96%E8%B6%A3%E7%9B%92/id6754290219" data-i18n="card.store">App Store</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======== VALUES ======== -->
+<section class="section" style="padding-top:40px">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-kicker" data-i18n="values.kicker">WHY US</span>
+      <h2 data-i18n="values.title">我们的坚持</h2>
+      <p data-i18n="values.sub">三个原则，贯穿每一行代码。</p>
+    </div>
+    <div class="values">
+      <div class="value reveal">
+        <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 12h14M12 5v14"/></svg></div>
+        <h3 data-i18n="value1.t">极简至上</h3>
+        <p data-i18n="value1.d">打开即用，没有冗余功能。我们相信好的应用应该像空气一样自然。</p>
+      </div>
+      <div class="value reveal d1">
+        <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="12" cy="12" r="3.5"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></div>
+        <h3 data-i18n="value2.t">设计先行</h3>
+        <p data-i18n="value2.d">遵循原生设计语言，每一个像素、每一次动效都经过反复推敲。</p>
+      </div>
+      <div class="value reveal d2">
+        <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 5-3.5 8-7 10-3.5-2-7-5-7-10V6l7-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3 data-i18n="value3.t">隐私安全</h3>
+        <p data-i18n="value3.d">绝大多数应用不收集任何数据。你的生活，只属于你自己。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======== CTA ======== -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="cta-band reveal">
+      <h2 data-i18n="cta.title">在 App Store 找到我们</h2>
+      <p data-i18n="cta.sub">支持 iPhone / iPad / Mac（Apple 芯片）/ Apple Vision Pro</p>
+      <a class="btn btn-primary" target="_blank" rel="noopener" href="https://apps.apple.com/cn/developer/id1755678701">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.86-3.08.38-1.09-.5-2.08-.53-3.2 0-1.44.62-2.2.45-3.06-.38C3.1 15.45 3.8 8.14 9.05 7.87c1.35.07 2.29.74 3.08.8.98-.2 1.92-.87 3.34-.78 1.16.09 2.03.55 2.61 1.37-2.39 1.43-2.02 4.6.4 5.48-.48 1.26-1.1 2.51-2.08 3.54l.65.01zM12.03 7.82c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+        <span data-i18n="cta.btn">前往 App Store</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ======== FOOTER ======== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <span class="brand-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#0b0d12" stroke-width="2" stroke-linecap="round"><circle cx="6" cy="12" r="2.4" fill="#0b0d12" stroke="none"/><circle cx="12" cy="9" r="3.2" fill="#0b0d12" stroke="none"/><path d="M12 12.2v4M12 16.2l-2 4M12 16.2l2 4M9.5 8.5 4 5M14.5 8.5 20 5"/></svg>
+          </span>
+          <span>黑蚁工作室</span>
+        </a>
+        <p data-i18n="footer.desc">一个专注打造小而美应用的工作室。用心做产品，用爱做设计。</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html" data-i18n="nav.works">作品</a>
+        <a href="about.html" data-i18n="nav.about">关于</a>
+        <a href="contact.html" data-i18n="nav.contact">联系我们</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BlackAnt Studio 黑蚁工作室</span>
+      <span data-i18n="footer.rights">保留所有权利。</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

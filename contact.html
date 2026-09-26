@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>联系我们 — 黑蚁工作室 BlackAnt Studio</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-title-zh="联系我们 — 黑蚁工作室 BlackAnt Studio" data-title-en="Contact — BlackAnt Studio">
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#0b0d12" stroke-width="2" stroke-linecap="round"><circle cx="6" cy="12" r="2.4" fill="#0b0d12" stroke="none"/><circle cx="12" cy="9" r="3.2" fill="#0b0d12" stroke="none"/><path d="M12 12.2v4M12 16.2l-2 4M12 16.2l2 4M9.5 8.5 4 5M14.5 8.5 20 5"/></svg>
+      </span>
+      <span>黑蚁工作室<small data-i18n="brand.sub">BLACK ANT STUDIO</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="menu">☰</button>
+    <nav class="nav-links">
+      <a href="index.html" data-i18n="nav.works">作品</a>
+      <a href="about.html" data-i18n="nav.about">关于</a>
+      <a href="contact.html" class="active" data-i18n="nav.contact">联系我们</a>
+      <button class="lang-btn" onclick="__toggleLang(this, event)">EN</button>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="hero-bg"></div>
+  <div class="container page-hero-inner">
+    <span class="section-kicker" data-i18n="contact.kicker">CONTACT</span>
+    <h1 data-i18n="contact.title">联系我们</h1>
+    <p data-i18n="contact.sub">无论是合作洽谈、问题反馈，还是只想打个招呼，我们都欢迎。</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:20px">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-card reveal">
+        <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg></div>
+        <h3 data-i18n="contact.support.t">用户支持</h3>
+        <p data-i18n="contact.support.d">应用使用问题与建议反馈</p>
+        <a class="link" href="mailto:support@blackant.studio" data-i18n="contact.support.link">发送邮件</a>
+      </div>
+      <div class="contact-card reveal d1">
+        <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M3 12h18"/></svg></div>
+        <h3 data-i18n="contact.biz.t">商务合作</h3>
+        <p data-i18n="contact.biz.d">推广、合作与其他商务事宜</p>
+        <a class="link" href="mailto:business@blackant.studio" data-i18n="contact.biz.link">发送邮件</a>
+      </div>
+      <div class="contact-card reveal d2">
+        <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 5.8 6.3.7-4.7 4.4 1.3 6.1L12 17l-5.6 3 1.3-6.1L3 9.5l6.3-.7L12 3z"/></svg></div>
+        <h3 data-i18n="contact.review.t">评价支持</h3>
+        <p data-i18n="contact.review.d">你的每一条 App Store 评价，都是我们前进的动力</p>
+        <a class="link" target="_blank" rel="noopener" href="https://apps.apple.com/cn/developer/id1755678701" data-i18n="contact.review.link">前往 App Store</a>
+      </div>
+      <div class="contact-card reveal d3">
+        <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 5-3.5 8-7 10-3.5-2-7-5-7-10V6l7-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3 data-i18n="contact.privacy.t">隐私政策</h3>
+        <p data-i18n="contact.privacy.d">我们重视你的隐私，绝大多数应用不收集任何数据</p>
+        <a class="link" href="https://api.xiaochengguang.cn/iosapp/PrivacyPolicy.html" target="_blank" rel="noopener" data-i18n="contact.privacy.link">查看隐私政策</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <span class="brand-logo"><svg viewBox="0 0 24 24" fill="none" stroke="#0b0d12" stroke-width="2" stroke-linecap="round"><circle cx="6" cy="12" r="2.4" fill="#0b0d12" stroke="none"/><circle cx="12" cy="9" r="3.2" fill="#0b0d12" stroke="none"/><path d="M12 12.2v4M12 16.2l-2 4M12 16.2l2 4M9.5 8.5 4 5M14.5 8.5 20 5"/></svg></span>
+          <span>黑蚁工作室</span>
+        </a>
+        <p data-i18n="footer.desc">一个专注打造小而美应用的工作室。用心做产品，用爱做设计。</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html" data-i18n="nav.works">作品</a>
+        <a href="about.html" data-i18n="nav.about">关于</a>
+        <a href="contact.html" data-i18n="nav.contact">联系我们</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BlackAnt Studio 黑蚁工作室</span>
+      <span data-i18n="footer.rights">保留所有权利。</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
