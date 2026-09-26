@@ -10,10 +10,10 @@ window.I18N = {
     "nav.contact": "联系我们",
     "brand.sub": "DRAGON BALL STUDIO",
 
-    "hero.badge": "iOS 独立开发工作室 · 精品应用系列",
-    "hero.title1": "小而美的应用，",
-    "hero.title2": "认真对待每一次体验",
-    "hero.sub": "从记账到汉字启蒙，从恋爱日记到益智游戏 —— 我们用心打磨每一款产品，让科技温柔地融入你的生活。",
+    "hero.badge": "龙球工作室 · 九颗龙珠，各显神通",
+    "hero.title1": "九颗匠心龙珠，",
+    "hero.title2": "点亮你的数字生活",
+    "hero.sub": "从记账启蒙到益智游戏，龙球工作室用心打磨每一款应用——让科技如龙珠般闪耀，温柔融入你的日常。",
     "hero.cta1": "浏览作品",
     "hero.cta2": "了解我们",
 
@@ -271,10 +271,10 @@ window.I18N = {
     "nav.contact": "Contact",
     "brand.sub": "DRAGON BALL STUDIO",
 
-    "hero.badge": "Independent iOS Studio · Crafted Apps",
-    "hero.title1": "Small, beautiful apps,",
-    "hero.title2": "crafted with care",
-    "hero.sub": "From bookkeeping to Chinese character learning, from love diaries to puzzle games — we polish every product with heart, so technology fits gently into your life.",
+    "hero.badge": "Dragon Ball Studio · Nine orbs, each with its own magic",
+    "hero.title1": "Nine crafted dragon balls,",
+    "hero.title2": "lighting up your digital life",
+    "hero.sub": "From bookkeeping to puzzle games, Dragon Ball Studio polishes every app with heart — technology that shines like a dragon ball and fits gently into your day.",
     "hero.cta1": "Explore Apps",
     "hero.cta2": "About Us",
 
