@@ -1,5 +1,5 @@
 /* ============================================================
-   BlackAnt Studio — i18n engine (中 / EN)
+   Dragon Ball Studio — i18n engine (中 / EN)
    Usage: elements with data-i18n / data-i18n-attr
    ============================================================ */
 
@@ -8,7 +8,7 @@ window.I18N = {
     "nav.works": "作品",
     "nav.about": "关于",
     "nav.contact": "联系我们",
-    "brand.sub": "BLACK ANT STUDIO",
+    "brand.sub": "DRAGON BALL STUDIO",
 
     "hero.badge": "iOS 独立开发工作室 · 精品应用系列",
     "hero.title1": "小而美的应用，",
@@ -56,10 +56,10 @@ window.I18N = {
 
     /* ---------- about ---------- */
     "about.kicker": "ABOUT US",
-    "about.title": "关于黑蚁工作室",
-    "about.sub": "BlackAnt Studio — 一支专注 iOS 独立开发的小团队，为热爱生活的人打造顺手的应用。",
+    "about.title": "关于龙球工作室",
+    "about.sub": "Dragon Ball Studio — 一支专注 iOS 独立开发的小团队，为热爱生活的人打造顺手的应用。",
     "about.h2": "我们相信，小团队也能做出好产品",
-    "about.p1": "黑蚁工作室成立于 2025 年，由几位热爱设计与技术的开发者组成。我们不追求大而全，只专注把每一款小应用做到极致。",
+    "about.p1": "龙球工作室成立于 2025 年，由几位热爱设计与技术的开发者组成。我们不追求大而全，只专注把每一款小应用做到极致。",
     "about.p2": "从财务工具到儿童教育，从情侣日记到休闲游戏，我们的产品覆盖生活的多个侧面，但有一个共同点：打开就能用，用了就离不开。",
     "about.card.title": "工作室速览",
     "about.row1": "成立时间",
@@ -100,7 +100,7 @@ window.I18N = {
     "dl.title": "立即下载",
     "dl.sub": "在 App Store 获取，支持家人共享。",
     "more.title": "探索更多应用",
-    "more.sub": "来自黑蚁工作室的其他作品",
+    "more.sub": "来自龙球工作室的其他作品",
 
     /* ---------- app: 猴子记账 ---------- */
     "app.monkey.name": "猴子记账",
@@ -269,7 +269,7 @@ window.I18N = {
     "nav.works": "Apps",
     "nav.about": "About",
     "nav.contact": "Contact",
-    "brand.sub": "BLACK ANT STUDIO",
+    "brand.sub": "DRAGON BALL STUDIO",
 
     "hero.badge": "Independent iOS Studio · Crafted Apps",
     "hero.title1": "Small, beautiful apps,",
@@ -316,10 +316,10 @@ window.I18N = {
     "footer.rights": "All rights reserved.",
 
     "about.kicker": "ABOUT US",
-    "about.title": "About BlackAnt Studio",
-    "about.sub": "BlackAnt Studio — a small team of indie iOS developers crafting handy apps for people who love life.",
+    "about.title": "About Dragon Ball Studio",
+    "about.sub": "Dragon Ball Studio — a small team of indie iOS developers crafting handy apps for people who love life.",
     "about.h2": "We believe small teams can build great products",
-    "about.p1": "Founded in 2025, BlackAnt Studio is made up of developers who are passionate about design and technology. We don't chase big-and-all — we focus on making every small app exceptional.",
+    "about.p1": "Founded in 2025, Dragon Ball Studio is made up of developers who are passionate about design and technology. We don't chase big-and-all — we focus on making every small app exceptional.",
     "about.p2": "From finance tools to children's education, from couple diaries to casual games, our products cover many sides of life with one thing in common: easy to pick up, hard to put down.",
     "about.card.title": "Studio at a Glance",
     "about.row1": "Founded",
@@ -358,7 +358,7 @@ window.I18N = {
     "dl.title": "Download Now",
     "dl.sub": "Get it on the App Store. Family Sharing supported.",
     "more.title": "Explore More Apps",
-    "more.sub": "Other creations from BlackAnt Studio",
+    "more.sub": "Other creations from Dragon Ball Studio",
 
     "app.monkey.name": "Monkey Ledger",
     "app.monkey.en": "SIMPLE & DELIGHTFUL BOOKKEEPING",
@@ -548,8 +548,8 @@ window.I18N = {
     });
     document.title =
       l === "zh"
-        ? document.body.getAttribute("data-title-zh") || "黑蚁工作室 BlackAnt Studio — 精品应用系列"
-        : document.body.getAttribute("data-title-en") || "BlackAnt Studio — Crafted iOS Apps";
+        ? document.body.getAttribute("data-title-zh") || "龙球工作室 Dragon Ball Studio — 精品应用系列"
+        : document.body.getAttribute("data-title-en") || "Dragon Ball Studio — Crafted iOS Apps";
     document.querySelectorAll(".lang-btn").forEach(function (b) {
       b.textContent = l === "zh" ? "EN" : "中文";
     });
