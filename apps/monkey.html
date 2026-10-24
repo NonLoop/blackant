@@ -12,7 +12,7 @@
   <div class="nav-inner">
     <a href="../index.html" class="brand">
       <span class="brand-logo"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="#0b0d12" stroke-width="2"/><path d="M12 5.6l1.7 3.5 3.8.55-2.75 2.68.65 3.8L12 14.4l-3.4 1.73.65-3.8L6.5 9.65l3.8-.55L12 5.6z" fill="#0b0d12"/></svg></span>
-      <span>龙球工作室<small data-i18n="brand.sub">DRAGON BALL STUDIO</small></span>
+      <span><span data-i18n="brand.name">龙球工作室</span><small data-i18n="brand.sub">DRAGON BALL STUDIO</small></span>
     </a>
     <button class="nav-toggle" aria-label="menu">☰</button>
     <nav class="nav-links">
@@ -35,9 +35,10 @@
       <div class="subtitle-en" data-i18n="app.monkey.en">SIMPLE & DELIGHTFUL BOOKKEEPING</div>
       <p class="lead" data-i18n="app.monkey.lead">不用复杂设置，打开就能记。适配 iPhone / iPad，界面跟着 iOS 设计走，上手就像用自带软件一样顺手。</p>
       <div class="meta-row">
-        <span class="meta-chip" data-i18n="meta.price">价格：¥1.00</span>
-        <span class="meta-chip" data-i18n="meta.lang">语言：中文 / English</span>
-        <span class="meta-chip" data-i18n="meta.platform">平台：iOS 12+ / macOS / visionOS</span>
+        <span class="meta-chip"><b data-i18n="meta.price">价格</b> · <span data-i18n="app.monkey.price">¥1.00</span></span>
+        <span class="meta-chip"><b data-i18n="meta.lang">语言</b> · 中文 / English</span>
+        <span class="meta-chip"><b data-i18n="meta.platform">平台</b> · iOS 12+ / macOS / visionOS</span>
+        <a class="meta-chip" href="../privacy/monkey.html" data-i18n="pp.link">隐私政策</a>
       </div>
       <div class="hero-cta">
         <a class="btn btn-primary" target="_blank" rel="noopener" href="https://apps.apple.com/cn/app/%E7%8C%B4%E5%AD%90%E8%AE%B0%E8%B4%A6/id6754389032">
@@ -105,7 +106,7 @@
       <div class="footer-brand">
         <a href="../index.html" class="brand">
           <span class="brand-logo"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="#0b0d12" stroke-width="2"/><path d="M12 5.6l1.7 3.5 3.8.55-2.75 2.68.65 3.8L12 14.4l-3.4 1.73.65-3.8L6.5 9.65l3.8-.55L12 5.6z" fill="#0b0d12"/></svg></span>
-          <span>龙球工作室</span>
+          <span data-i18n="brand.name">龙球工作室</span>
         </a>
         <p data-i18n="footer.desc">一个专注打造小而美应用的工作室。用心做产品，用爱做设计。</p>
       </div>
@@ -116,13 +117,15 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Dragon Ball Studio 龙球工作室</span>
+      <span data-i18n="footer.copy">© 2026 Dragon Ball Studio 龙球工作室</span>
       <span data-i18n="footer.rights">保留所有权利。</span>
     </div>
   </div>
 </footer>
 
-<script src="../js/i18n.js"></script>
+<script src="../js/i18n/dict-common.js"></script>
+<script src="../js/i18n/dict-monkey.js"></script>
+<script src="../js/i18n/engine.js"></script>
 <script src="../js/main.js"></script>
 </body>
 </html>
