@@ -11,9 +11,9 @@ Object.assign(window.I18N.zh, {
   "nav.contact": "联系我们",
   "brand.name": "龙球工作室",
   "brand.sub": "DRAGON BALL STUDIO",
-  "hero.badge": "龙球工作室 · 九颗龙珠，各显神通",
-  "hero.title1": "九颗匠心龙珠，",
-  "hero.title2": "点亮你的数字生活",
+  "hero.badge": "iOS 独立开发工作室 · 精品应用系列",
+  "hero.title1": "小而美的应用，",
+  "hero.title2": "认真对待每一次体验",
   "hero.sub": "从记账启蒙到益智游戏，龙球工作室用心打磨每一款应用——让科技如龙珠般闪耀，温柔融入你的日常。",
   "hero.cta1": "浏览作品",
   "hero.cta2": "了解我们",
@@ -61,7 +61,7 @@ Object.assign(window.I18N.zh, {
   "about.row2": "专注平台",
   "about.row2v": "Apple 生态（iOS / iPadOS / macOS / visionOS）",
   "about.row3": "应用数量",
-  "about.row3v": "9 款在架",
+  "about.row3v": "46 款",
   "about.row4": "设计理念",
   "about.row4v": "小而美 · 极简至上 · 隐私安全",
   "contact.kicker": "CONTACT",
@@ -96,7 +96,11 @@ Object.assign(window.I18N.zh, {
   "dl.title": "立即下载",
   "dl.sub": "在 App Store 获取，支持家人共享。",
   "more.title": "探索更多应用",
-  "more.sub": "来自龙球工作室的其他作品"
+  "more.sub": "来自龙球工作室的其他作品",
+  "app.common.status": "状态",
+  "app.common.statusSoon": "即将上线",
+  "pp.dev": "开发者主页",
+  "dl.soon.btn": "联系我们"
 });
 
 Object.assign(window.I18N.en, {
@@ -105,9 +109,9 @@ Object.assign(window.I18N.en, {
   "nav.contact": "Contact",
   "brand.name": "Dragon Ball Studio",
   "brand.sub": "龙球工作室",
-  "hero.badge": "Dragon Ball Studio · Nine orbs, each with its own magic",
-  "hero.title1": "Nine crafted dragon balls,",
-  "hero.title2": "lighting up your digital life",
+  "hero.badge": "Indie iOS Studio · Crafted App Collection",
+  "hero.title1": "Small, beautiful apps —",
+  "hero.title2": "every experience taken seriously",
   "hero.sub": "From bookkeeping to puzzle games, Dragon Ball Studio polishes every app with heart — technology that shines like a dragon ball and fits gently into your day.",
   "hero.cta1": "Explore Apps",
   "hero.cta2": "About Us",
@@ -155,7 +159,7 @@ Object.assign(window.I18N.en, {
   "about.row2": "Platforms",
   "about.row2v": "Apple ecosystem (iOS / iPadOS / macOS / visionOS)",
   "about.row3": "Apps Published",
-  "about.row3v": "9 on the App Store",
+  "about.row3v": "46 apps",
   "about.row4": "Philosophy",
   "about.row4v": "Small & beautiful · Simplicity first · Privacy safe",
   "contact.kicker": "CONTACT",
@@ -190,5 +194,9 @@ Object.assign(window.I18N.en, {
   "dl.title": "Download Now",
   "dl.sub": "Get it on the App Store. Family Sharing supported.",
   "more.title": "Explore More Apps",
-  "more.sub": "Other creations from Dragon Ball Studio"
+  "more.sub": "Other creations from Dragon Ball Studio",
+  "app.common.status": "Status",
+  "app.common.statusSoon": "Coming Soon",
+  "pp.dev": "Developer Page",
+  "dl.soon.btn": "Contact Us"
 });

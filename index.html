@@ -7,32 +7,8 @@
 <meta name="description" content="Dragon Ball Studio 龙球工作室 — 小而美的 iOS 应用：猴子记账、迷盒星球、恋语日记、恋爱话术秘籍、汉字小课堂、智慧大训练、连连对对碰。">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body data-title-zh="龙球工作室 Dragon Ball Studio — 精品应用系列" data-title-en="Dragon Ball Studio — Crafted iOS Apps">
-
-<!-- ======== NAV ======== -->
-<header class="nav">
-  <div class="nav-inner">
-    <a href="index.html" class="brand">
-      <span class="brand-logo">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#0b0d12" stroke-width="2" stroke-linecap="round">
-          <circle cx="6" cy="12" r="2.4" fill="#0b0d12" stroke="none"/>
-          <circle cx="12" cy="9" r="3.2" fill="#0b0d12" stroke="none"/>
-          <path d="M12 12.2v4"/>
-          <path d="M12 16.2l-2 4M12 16.2l2 4"/>
-          <path d="M9.5 8.5 4 5M14.5 8.5 20 5"/>
-        </svg>
-      </span>
-      <span><span data-i18n="brand.name">龙球工作室</span><small data-i18n="brand.sub">DRAGON BALL STUDIO</small></span>
-    </a>
-    <button class="nav-toggle" aria-label="menu">☰</button>
-    <nav class="nav-links">
-      <a href="index.html#works" class="active" data-i18n="nav.works">作品</a>
-      <a href="about.html" data-i18n="nav.about">关于</a>
-      <a href="contact.html" data-i18n="nav.contact">联系我们</a>
-      <button class="lang-btn" onclick="__toggleLang(this, event)">EN</button>
-    </nav>
-  </div>
-</header>
+<body data-title-zh="龙球工作室 Dragon Ball Studio — 精品应用系列" data-title-en="Dragon Ball Studio — Crafted iOS Apps" data-nav="works" data-privacy="list" data-brand="home">
+<div data-layout="nav"></div>
 
 <!-- ======== HERO ======== -->
 <section class="hero">
@@ -64,7 +40,7 @@
       <a href="about.html" class="btn btn-ghost" data-i18n="hero.cta2">了解我们</a>
     </div>
     <div class="stats">
-      <div class="stat reveal d1"><b>9</b><span data-i18n="stat.apps">精品应用</span></div>
+      <div class="stat reveal d1"><b>46</b><span data-i18n="stat.apps">精品应用</span></div>
       <div class="stat reveal d2"><b>5+</b><span data-i18n="stat.cats">多元品类</span></div>
       <div class="stat reveal d3"><b>5.0★</b><span data-i18n="stat.rating">品质承诺</span></div>
       <div class="stat reveal d4"><b>100%</b><span data-i18n="stat.privacy">隐私至上</span></div>
@@ -263,6 +239,709 @@
         </div>
       </article>
 
+      <!-- 宝宝起名 -->
+      <article class="app-card reveal" data-cat="reference">
+        <div class="card-glow g-baby">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="7" width="32" height="26" rx="7" fill="none" stroke="#f472b6" stroke-width="2.5" stroke-linecap="round"/><path d="M15 33v6M33 33v6" fill="none" stroke="#f472b6" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="20" r="6.5" fill="none" stroke="#f472b6" stroke-width="2.5" stroke-linecap="round"/><path d="M24 26.5V30" fill="none" stroke="#f472b6" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.baby.cat">参考</span>
+          <h3 data-i18n="app.baby.name">宝宝起名</h3>
+          <div class="en-name">Baby Name Studio</div>
+          <p data-i18n="app.baby.tag">融合传统命理智慧的智能起名助手</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/baby.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 成语小栈 -->
+      <article class="app-card reveal d1" data-cat="education">
+        <div class="card-glow g-chengyu">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="32" height="32" rx="9" fill="none" stroke="#a3e635" stroke-width="2.5" stroke-linecap="round"/><text x="24" y="36.3" text-anchor="start" font-size="18" font-weight="700" fill="#a3e635" font-family="'PingFang SC','Noto Sans SC',sans-serif">词</text></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.chengyu.cat">教育</span>
+          <h3 data-i18n="app.chengyu.name">成语小栈</h3>
+          <div class="en-name">Idiom Harbor</div>
+          <p data-i18n="app.chengyu.tag">离线成语查询与学习应用</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/chengyu.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 口袋记账 -->
+      <article class="app-card reveal d2" data-cat="finance">
+        <div class="card-glow g-pocketledger">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="7" y="12" width="34" height="24" rx="7" fill="none" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/><path d="M7 20h34" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" opacity="0.5"/><circle cx="33" cy="26" r="2.4" fill="#34d399"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.pocketledger.cat">财务</span>
+          <h3 data-i18n="app.pocketledger.name">口袋记账</h3>
+          <div class="en-name">Pocket Ledger</div>
+          <p data-i18n="app.pocketledger.tag">随身口袋里的轻记账本</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/pocketledger.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 节拍器 -->
+      <article class="app-card reveal" data-cat="utility">
+        <div class="card-glow g-metronome">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 9 14 39h20L24 9z" fill="none" stroke="#fb923c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 35 31 15" fill="none" stroke="#fb923c" stroke-width="2.5" stroke-linecap="round"/><circle cx="30" cy="18" r="2.6" fill="#fb923c"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.metronome.cat">工具</span>
+          <h3 data-i18n="app.metronome.name">节拍器</h3>
+          <div class="en-name">Metronome</div>
+          <p data-i18n="app.metronome.tag">功能完整、界面精美的节奏拍档</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/metronome.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 今天好吗 -->
+      <article class="app-card reveal d1" data-cat="utility">
+        <div class="card-glow g-mood">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 39s-14-8.5-14-19a8 8 0 0 1 14-5.3A8 8 0 0 1 38 20c0 10.5-14 19-14 19z" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 26h6l2-4 3 7 2-3h7" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.mood.cat">工具</span>
+          <h3 data-i18n="app.mood.name">今天好吗</h3>
+          <div class="en-name">How Was Today</div>
+          <p data-i18n="app.mood.tag">每日情绪打卡与身心健康伙伴</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/mood.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 小鸟计算器 -->
+      <article class="app-card reveal d2" data-cat="utility">
+        <div class="card-glow g-birdcalc">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="9" y="7" width="30" height="34" rx="8" fill="none" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"/><rect x="14" y="12" width="20" height="7" rx="3" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/><circle cx="18" cy="27" r="1.8" fill="#60a5fa"/><circle cx="24" cy="27" r="1.8" fill="#60a5fa"/><circle cx="30" cy="27" r="1.8" fill="#60a5fa"/><circle cx="18" cy="34" r="1.8" fill="#60a5fa"/><circle cx="24" cy="34" r="1.8" fill="#60a5fa"/><circle cx="30" cy="34" r="1.8" fill="#60a5fa"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.birdcalc.cat">工具</span>
+          <h3 data-i18n="app.birdcalc.name">小鸟计算器</h3>
+          <div class="en-name">Birdy Calculator</div>
+          <p data-i18n="app.birdcalc.tag">轻巧好用的鸟形计算器</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/birdcalc.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 恋语宝 -->
+      <article class="app-card reveal" data-cat="utility">
+        <div class="card-glow g-lovetreasure">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M40 12a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H22l-8 7v-7h-6a4 4 0 0 1-4-4V16a4 4 0 0 1 4-4h32z" fill="none" stroke="#ff8fab" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 28s-5.5-3.4-5.5-7a3 3 0 0 1 5.5-1.8A3 3 0 0 1 29.5 21c0 3.6-5.5 7-5.5 7z" fill="#ff8fab" stroke="#ff8fab" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.lovetreasure.cat">工具</span>
+          <h3 data-i18n="app.lovetreasure.name">恋语宝</h3>
+          <div class="en-name">Love Treasure</div>
+          <p data-i18n="app.lovetreasure.tag">完全离线的恋爱话术与心意工具箱</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/lovetreasure.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 智能护肤助手 -->
+      <article class="app-card reveal d1" data-cat="utility">
+        <div class="card-glow g-skinstudio">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 9c7 8.6 10.5 13.6 10.5 18.5A10.5 10.5 0 0 1 13.5 27.5C13.5 22.6 17 17.6 24 9z" fill="none" stroke="#5eead4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="28" r="2.8" fill="#5eead4" opacity="0.5"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.skinstudio.cat">工具</span>
+          <h3 data-i18n="app.skinstudio.name">智能护肤助手</h3>
+          <div class="en-name">SkinStudio</div>
+          <p data-i18n="app.skinstudio.tag">AI 驱动的美容护肤知识伙伴</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/skinstudio.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 拼豆小游戏 -->
+      <article class="app-card reveal d2" data-cat="game">
+        <div class="card-glow g-beads">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="15" cy="15" r="4" fill="#fda4af"/><circle cx="24" cy="15" r="4" fill="none" stroke="#fda4af" stroke-width="2.4" stroke-linecap="round"/><circle cx="33" cy="15" r="4" fill="#fda4af" opacity="0.5"/><circle cx="15" cy="24" r="4" fill="none" stroke="#fda4af" stroke-width="2.4" stroke-linecap="round"/><circle cx="24" cy="24" r="4" fill="#fda4af"/><circle cx="33" cy="24" r="4" fill="none" stroke="#fda4af" stroke-width="2.4" stroke-linecap="round"/><circle cx="24" cy="33" r="4" fill="#fda4af" opacity="0.5"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.beads.cat">娱乐</span>
+          <h3 data-i18n="app.beads.name">拼豆小游戏</h3>
+          <div class="en-name">Perler Beads</div>
+          <p data-i18n="app.beads.tag">一颗一颗拼出小世界的治愈游戏</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/beads.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 去打卡 -->
+      <article class="app-card reveal" data-cat="utility">
+        <div class="card-glow g-checkin">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="32" height="32" rx="9" fill="none" stroke="#4ade80" stroke-width="2.5" stroke-linecap="round"/><path d="M16 24l6 6 11-13" fill="none" stroke="#4ade80" stroke-width="2.8" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.checkin.cat">工具</span>
+          <h3 data-i18n="app.checkin.name">去打卡</h3>
+          <div class="en-name">Check-In</div>
+          <p data-i18n="app.checkin.tag">完全离线的习惯打卡与专注伙伴</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/checkin.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 生活点子库 -->
+      <article class="app-card reveal d1" data-cat="reference">
+        <div class="card-glow g-lifehacks">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6c5 6.2 8 9.8 8 13.5a8 8 0 1 1-16 0C16 15.8 19 12.2 24 6z" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 36h8M22 41h4" fill="none" stroke="#fbbf24" stroke-width="2.4" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.lifehacks.cat">参考</span>
+          <h3 data-i18n="app.lifehacks.name">生活点子库</h3>
+          <div class="en-name">Life Hacks</div>
+          <p data-i18n="app.lifehacks.tag">数千条生活窍门与健康知识</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/lifehacks.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 拾光日记 -->
+      <article class="app-card reveal d2" data-cat="utility">
+        <div class="card-glow g-shiguang">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="32" height="32" rx="9" fill="none" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round"/><path d="M8 18h32" fill="none" stroke="#818cf8" stroke-width="2" stroke-linecap="round" opacity="0.5"/><path d="M17 27l5 5 9-11" fill="none" stroke="#818cf8" stroke-width="2.4" stroke-linecap="round"/><path d="M22 14l2 4 4 2-4 2-2 4-2-4-4-2 4-2 2-4z" fill="#818cf8" stroke="#818cf8"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.shiguang.cat">工具</span>
+          <h3 data-i18n="app.shiguang.name">拾光日记</h3>
+          <div class="en-name">Shiguang Diary</div>
+          <p data-i18n="app.shiguang.tag">记录日常、收藏光影的 SwiftUI 日记</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/shiguang.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 我的旅行册 -->
+      <article class="app-card reveal" data-cat="utility">
+        <div class="card-glow g-travel">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="7" width="32" height="26" rx="7" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/><path d="M12 27l7-8 5 5 6-7 6 10H12z" fill="#38bdf8" stroke="#38bdf8" opacity="0.45" stroke-linejoin="round"/><path d="M18 39h12M24 39v4" fill="none" stroke="#38bdf8" stroke-width="2.4" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.travel.cat">工具</span>
+          <h3 data-i18n="app.travel.name">我的旅行册</h3>
+          <div class="en-name">My Travel Album</div>
+          <p data-i18n="app.travel.tag">把走过的路收进一本旅行册</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/travel.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 小鹿工具箱 -->
+      <article class="app-card reveal d1" data-cat="utility">
+        <div class="card-glow g-xiaolu">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="9" y="16" width="30" height="22" rx="6" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/><path d="M18 16v-4a6 6 0 0 1 12 0v4" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="26" r="2.6" fill="#f59e0b"/><path d="M24 28.5v5" fill="none" stroke="#f59e0b" stroke-width="2.4" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.xiaolu.cat">工具</span>
+          <h3 data-i18n="app.xiaolu.name">小鹿工具箱</h3>
+          <div class="en-name">Deer Toolkit</div>
+          <p data-i18n="app.xiaolu.tag">十几种离线小工具收进一个口袋</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/xiaolu.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 账号宝 -->
+      <article class="app-card reveal d2" data-cat="utility">
+        <div class="card-glow g-accountkeeper">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="12" y="21" width="24" height="17" rx="5" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/><path d="M17 21v-4a7 7 0 0 1 14 0v4" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="29" r="2.4" fill="#94a3b8"/><path d="M24 30.5v4" fill="none" stroke="#94a3b8" stroke-width="2.4" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.accountkeeper.cat">工具</span>
+          <h3 data-i18n="app.accountkeeper.name">账号宝</h3>
+          <div class="en-name">Account Keeper</div>
+          <p data-i18n="app.accountkeeper.tag">完全离线的账号与密码管家</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/accountkeeper.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 自律轻打卡 -->
+      <article class="app-card reveal" data-cat="utility">
+        <div class="card-glow g-zilv">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="32" height="32" rx="16" fill="none" stroke="#2dd4bf" stroke-width="2.5" stroke-linecap="round"/><path d="M18 23l4 4 8-9" fill="none" stroke="#2dd4bf" stroke-width="2.6" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.zilv.cat">工具</span>
+          <h3 data-i18n="app.zilv.name">自律轻打卡</h3>
+          <div class="en-name">Easy Habits</div>
+          <p data-i18n="app.zilv.tag">轻轻一提，把好习惯养成</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/zilv.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 贪吃蛇闯大关 -->
+      <article class="app-card reveal d1" data-cat="game">
+        <div class="card-glow g-snake">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M10 14h14a5 5 0 0 1 0 10H14a5 5 0 0 0 0 10h12" fill="none" stroke="#84cc16" stroke-width="2.8" stroke-linecap="round"/><circle cx="35" cy="14" r="2.6" fill="#84cc16"/><circle cx="35" cy="34" r="2" fill="#84cc16" opacity="0.5"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.snake.cat">娱乐</span>
+          <h3 data-i18n="app.snake.name">贪吃蛇闯大关</h3>
+          <div class="en-name">Snake Adventure</div>
+          <p data-i18n="app.snake.tag">关卡制贪吃蛇，道具与三星评价</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/snake.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 小坦克 -->
+      <article class="app-card reveal d2" data-cat="game">
+        <div class="card-glow g-tank">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="9" y="27" width="30" height="9" rx="4" fill="none" stroke="#a16207" stroke-width="2.5" stroke-linecap="round"/><circle cx="22" cy="23" r="5" fill="none" stroke="#a16207" stroke-width="2.5" stroke-linecap="round"/><path d="M36 20h7" fill="none" stroke="#a16207" stroke-width="2.8" stroke-linecap="round"/><path d="M13 39v3M24 39v3M35 39v3" fill="none" stroke="#a16207" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.tank.cat">娱乐</span>
+          <h3 data-i18n="app.tank.name">小坦克</h3>
+          <div class="en-name">Little Tank</div>
+          <p data-i18n="app.tank.tag">守住基地，打出你的坦克战役</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/tank.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 流光 2048 -->
+      <article class="app-card reveal" data-cat="game">
+        <div class="card-glow g-lumen">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="7" y="7" width="15" height="15" rx="4" fill="none" stroke="#e879f9" stroke-width="2.5" stroke-linecap="round"/><rect x="26" y="7" width="15" height="15" rx="4" fill="#e879f9" opacity="0.55"/><rect x="7" y="26" width="15" height="15" rx="4" fill="#e879f9" opacity="0.8"/><rect x="26" y="26" width="15" height="15" rx="4" fill="none" stroke="#e879f9" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.lumen.cat">娱乐</span>
+          <h3 data-i18n="app.lumen.name">流光 2048</h3>
+          <div class="en-name">Lumen 2048</div>
+          <p data-i18n="app.lumen.tag">多规格棋盘与炫光动效的 2048</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/lumen.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 滑块三国 -->
+      <article class="app-card reveal d1" data-cat="game">
+        <div class="card-glow g-klotski">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="9" y="8" width="18" height="14" rx="3" fill="none" stroke="#f87171" stroke-width="2.5" stroke-linecap="round"/><rect x="29" y="8" width="10" height="22" rx="3" fill="#f87171" opacity="0.5"/><rect x="9" y="24" width="10" height="10" rx="3" fill="#f87171" opacity="0.8"/><rect x="21" y="24" width="14" height="10" rx="3" fill="none" stroke="#f87171" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.klotski.cat">娱乐</span>
+          <h3 data-i18n="app.klotski.name">滑块三国</h3>
+          <div class="en-name">Klotski</div>
+          <p data-i18n="app.klotski.tag">拖动棋子，把曹操送出华容道</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/klotski.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 恋爱宝典 -->
+      <article class="app-card reveal d2" data-cat="utility">
+        <div class="card-glow g-loveguide">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="14" fill="none" stroke="#fb7185" stroke-width="2.5" stroke-linecap="round"/><path d="M24 24V10M24 24l12 7" fill="none" stroke="#fb7185" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="24" r="2.4" fill="#fb7185"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.loveguide.cat">工具</span>
+          <h3 data-i18n="app.loveguide.name">恋爱宝典</h3>
+          <div class="en-name">Love Guide</div>
+          <p data-i18n="app.loveguide.tag">感情建议、恋爱转盘与每日打卡</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/loveguide.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 加密相册 -->
+      <article class="app-card reveal" data-cat="utility">
+        <div class="card-glow g-encphoto">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="14" y="22" width="20" height="15" rx="4" fill="none" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/><path d="M18 22v-4a6 6 0 0 1 12 0v4" fill="none" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="29" r="2" fill="#8b5cf6"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.encphoto.cat">工具</span>
+          <h3 data-i18n="app.encphoto.name">加密相册</h3>
+          <div class="en-name">Encrypted Photo</div>
+          <p data-i18n="app.encphoto.tag">照片在本机加密保存的私密相册</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/encphoto.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 暗盒 -->
+      <article class="app-card reveal d1" data-cat="utility">
+        <div class="card-glow g-darkbox">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="7" y="13" width="27" height="24" rx="6" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round"/><rect x="17" y="19" width="24" height="18" rx="5" fill="none" stroke="#10b981" stroke-width="2.4" stroke-linecap="round"/><circle cx="29" cy="28" r="2" fill="#10b981"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.darkbox.cat">工具</span>
+          <h3 data-i18n="app.darkbox.name">暗盒</h3>
+          <div class="en-name">DarkBox</div>
+          <p data-i18n="app.darkbox.tag">真实/诱饵双金库的加密相册</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/darkbox.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 夜曲 -->
+      <article class="app-card reveal d2" data-cat="utility">
+        <div class="card-glow g-nocturne">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M33 9a15 15 0 1 0 6 21 12 12 0 0 1-6-21z" fill="none" stroke="#6366f1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 24h8l-4 6z" fill="#6366f1" stroke="#6366f1" opacity="0.6"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.nocturne.cat">工具</span>
+          <h3 data-i18n="app.nocturne.name">夜曲</h3>
+          <div class="en-name">Nocturne</div>
+          <p data-i18n="app.nocturne.tag">图案锁加密相册，笔记标签一应俱全</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/nocturne.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 棱镜 -->
+      <article class="app-card reveal" data-cat="utility">
+        <div class="card-glow g-prism">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 9 40 37H8L24 9z" fill="none" stroke="#a5f3fc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 22h11" fill="none" stroke="#a5f3fc" stroke-width="2.2" stroke-linecap="round"/><path d="M33 22h11M33 28h11M33 34h11" fill="none" stroke="#a5f3fc" stroke-width="2.2" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.prism.cat">工具</span>
+          <h3 data-i18n="app.prism.name">棱镜</h3>
+          <div class="en-name">Prism</div>
+          <p data-i18n="app.prism.tag">伪装成计算器的加密金库</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/prism.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 封缄 -->
+      <article class="app-card reveal d1" data-cat="utility">
+        <div class="card-glow g-sealbox">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="7" y="13" width="34" height="23" rx="5" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/><path d="M7 15l17 12 17-12" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="31" r="2.6" fill="#f59e0b"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.sealbox.cat">工具</span>
+          <h3 data-i18n="app.sealbox.name">封缄</h3>
+          <div class="en-name">SealBox</div>
+          <p data-i18n="app.sealbox.tag">以一封信为单位加密的相册</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/sealbox.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 学英语 -->
+      <article class="app-card reveal d2" data-cat="education">
+        <div class="card-glow g-learnenglish">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="7" y="11" width="25" height="19" rx="5" fill="none" stroke="#5ea0ff" stroke-width="2.5" stroke-linecap="round"/><path d="M13 30l-4 7 9-4" fill="none" stroke="#5ea0ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><text x="19" y="29.2" text-anchor="middle" font-size="12" font-weight="700" fill="#5ea0ff" font-family="'PingFang SC','Noto Sans SC',sans-serif">A</text><path d="M30 39c1.6 0 3-1.4 3-3s-1.4-3-3-3-3 1.4-3 3v3h3z" fill="#5ea0ff" stroke="#5ea0ff" stroke-linejoin="round"/><path d="M36 33v3c0 1.7-1.3 3-3 3" fill="none" stroke="#5ea0ff" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.learnenglish.cat">教育</span>
+          <h3 data-i18n="app.learnenglish.name">学英语</h3>
+          <div class="en-name">Learn English</div>
+          <p data-i18n="app.learnenglish.tag">词卡、对话、语法与闪卡复习</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/learnenglish.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 学日语 -->
+      <article class="app-card reveal" data-cat="education">
+        <div class="card-glow g-learnjapanese">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M13 12h22a10 10 0 0 1 0 20h-8l-1 6" fill="none" stroke="#f43f5e" stroke-width="2.6" stroke-linecap="round"/><path d="M34 22v16" fill="none" stroke="#f43f5e" stroke-width="2.6" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.learnjapanese.cat">教育</span>
+          <h3 data-i18n="app.learnjapanese.name">学日语</h3>
+          <div class="en-name">Learn Japanese</div>
+          <p data-i18n="app.learnjapanese.tag">从五十音到会话的日语学习路径</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/learnjapanese.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 水族馆 -->
+      <article class="app-card reveal d1" data-cat="education">
+        <div class="card-glow g-aqua">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><ellipse cx="21" cy="24" rx="11" ry="7" fill="none" stroke="#06b6d4" stroke-width="2.5" stroke-linecap="round"/><path d="M32 24l8-6v12l-8-6z" fill="none" stroke="#06b6d4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="22" r="1.6" fill="#06b6d4"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.aqua.cat">教育</span>
+          <h3 data-i18n="app.aqua.name">水族馆</h3>
+          <div class="en-name">Aqua Learn</div>
+          <p data-i18n="app.aqua.tag">200+ 海洋生物图鉴与互动学习</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/aqua.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 学拼音 -->
+      <article class="app-card reveal d2" data-cat="education">
+        <div class="card-glow g-learnpinyin">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="9" width="32" height="21" rx="6" fill="none" stroke="#facc15" stroke-width="2.5" stroke-linecap="round"/><path d="M15 30v6l5-6" fill="none" stroke="#facc15" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><text x="18" y="28.2" text-anchor="middle" font-size="12" font-weight="700" fill="#facc15" font-family="'PingFang SC','Noto Sans SC',sans-serif">a</text><text x="28" y="28.2" text-anchor="middle" font-size="12" font-weight="700" fill="#facc15" font-family="'PingFang SC','Noto Sans SC',sans-serif">o</text></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.learnpinyin.cat">教育</span>
+          <h3 data-i18n="app.learnpinyin.name">学拼音</h3>
+          <div class="en-name">Learn Pinyin</div>
+          <p data-i18n="app.learnpinyin.tag">声母韵母到拼合的完整拼音课程</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/learnpinyin.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 锁屏启动 -->
+      <article class="app-card reveal" data-cat="utility">
+        <div class="card-glow g-locklaunch">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="10" y="21" width="28" height="18" rx="5" fill="none" stroke="#64748b" stroke-width="2.5" stroke-linecap="round"/><path d="M16 21v-5a8 8 0 0 1 16 0v5" fill="none" stroke="#64748b" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="30" r="2.4" fill="#64748b"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.locklaunch.cat">工具</span>
+          <h3 data-i18n="app.locklaunch.name">锁屏启动</h3>
+          <div class="en-name">LockLaunch</div>
+          <p data-i18n="app.locklaunch.tag">锁屏小组件与灵动岛快捷启动器</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/locklaunch.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 系统仪表盘 -->
+      <article class="app-card reveal d1" data-cat="utility">
+        <div class="card-glow g-sysdash">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="26" r="14" fill="none" stroke="#0ea5e9" stroke-width="2.5" stroke-linecap="round"/><path d="M24 26l8-7" fill="none" stroke="#0ea5e9" stroke-width="2.6" stroke-linecap="round"/><path d="M24 12v3M36 26h3M12 26H9M32.5 17.5l2-2M15.5 17.5l-2-2" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="26" r="2" fill="#0ea5e9"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.sysdash.cat">工具</span>
+          <h3 data-i18n="app.sysdash.name">系统仪表盘</h3>
+          <div class="en-name">Sys Dashboard</div>
+          <p data-i18n="app.sysdash.tag">一眼看清 iPhone 的运行状态</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/sysdash.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 口袋工具箱 -->
+      <article class="app-card reveal d2" data-cat="utility">
+        <div class="card-glow g-pockettools">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M15 33l12-12" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round"/><circle cx="29" cy="19" r="6.5" fill="none" stroke="#f97316" stroke-width="2.6" stroke-linecap="round"/><path d="M12 24l-5 5 5 5" fill="none" stroke="#f97316" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M36 24l5 5-5 5" fill="none" stroke="#f97316" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.pockettools.cat">工具</span>
+          <h3 data-i18n="app.pockettools.name">口袋工具箱</h3>
+          <div class="en-name">Pocket Tools</div>
+          <p data-i18n="app.pockettools.tag">30 个离线小工具装进口袋</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/pockettools.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 炬光 -->
+      <article class="app-card reveal" data-cat="utility">
+        <div class="card-glow g-torchkit">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="18" y="22" width="12" height="18" rx="4" fill="none" stroke="#fde047" stroke-width="2.5" stroke-linecap="round"/><path d="M24 22l-7-12h14l-7 12z" fill="none" stroke="#fde047" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 8l4 4M36 8l-4 4M24 4v5" fill="none" stroke="#fde047" stroke-width="2.2" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.torchkit.cat">工具</span>
+          <h3 data-i18n="app.torchkit.name">炬光</h3>
+          <div class="en-name">Torch Kit</div>
+          <p data-i18n="app.torchkit.tag">常亮、SOS、呼吸都有的专业手电筒</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/torchkit.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- AI 学堂 -->
+      <article class="app-card reveal d1" data-cat="education">
+        <div class="card-glow g-ailearn">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 10 40 17 24 24 8 17l16-7z" fill="none" stroke="#7dd3fc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 21v8c0 3.3 4.5 6 10 6s10-2.7 10-6v-8" fill="none" stroke="#7dd3fc" stroke-width="2.5" stroke-linecap="round"/><path d="M40 17v9" fill="none" stroke="#7dd3fc" stroke-width="2.2" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.ailearn.cat">教育</span>
+          <h3 data-i18n="app.ailearn.name">AI 学堂</h3>
+          <div class="en-name">AI Academy</div>
+          <p data-i18n="app.ailearn.tag">关于 AI 的交互式学习与面试练习</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/ailearn.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 数论探索 -->
+      <article class="app-card reveal d2" data-cat="education">
+        <div class="card-glow g-aimath">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="16" cy="16" r="7" fill="none" stroke="#93c5fd" stroke-width="2.5" stroke-linecap="round"/><path d="M13 16h6M16 13v6" fill="none" stroke="#93c5fd" stroke-width="2" stroke-linecap="round"/><path d="M28 14h8M28 20h8M32 30v10M27 35h10" fill="none" stroke="#93c5fd" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.aimath.cat">教育</span>
+          <h3 data-i18n="app.aimath.name">数论探索</h3>
+          <div class="en-name">Number Theory Lab</div>
+          <p data-i18n="app.aimath.tag">看得懂、算得爽的数论探索之旅</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/aimath.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 呼吸静界 -->
+      <article class="app-card reveal" data-cat="utility">
+        <div class="card-glow g-breath">
+          <div class="app-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="13" fill="none" stroke="#6ee7b7" stroke-width="2.2" stroke-linecap="round" opacity="0.45"/><circle cx="24" cy="24" r="8.5" fill="none" stroke="#6ee7b7" stroke-width="2.4" stroke-linecap="round" opacity="0.75"/><circle cx="24" cy="24" r="4" fill="#6ee7b7"/></svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat" data-i18n="app.breath.cat">工具</span>
+          <h3 data-i18n="app.breath.name">呼吸静界</h3>
+          <div class="en-name">Breathe</div>
+          <p data-i18n="app.breath.tag">4-7-8 与盒式呼吸的静心教练</p>
+          <div class="card-actions">
+            <a class="card-link" href="apps/breath.html" data-i18n="card.view">查看详情</a>
+            <span class="card-store soon" data-i18n="app.common.statusSoon">即将上线</span>
+          </div>
+        </div>
+      </article>
+
     </div>
   </div>
 </section>
@@ -308,34 +987,10 @@
     </div>
   </div>
 </section>
+<div data-layout="footer"></div>
 
-<!-- ======== FOOTER ======== -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <a href="index.html" class="brand">
-          <span class="brand-logo">
-            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="#0b0d12" stroke-width="2"/><path d="M12 5.6l1.7 3.5 3.8.55-2.75 2.68.65 3.8L12 14.4l-3.4 1.73.65-3.8L6.5 9.65l3.8-.55L12 5.6z" fill="#0b0d12"/></svg>
-          </span>
-          <span data-i18n="brand.name">龙球工作室</span>
-        </a>
-        <p data-i18n="footer.desc">一个专注打造小而美应用的工作室。用心做产品，用爱做设计。</p>
-      </div>
-      <div class="footer-links">
-        <a href="index.html" data-i18n="nav.works">作品</a>
-        <a href="about.html" data-i18n="nav.about">关于</a>
-        <a href="contact.html" data-i18n="nav.contact">联系我们</a>
-        <a href="privacy/index.html" data-i18n="contact.privacy.t">隐私政策</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span data-i18n="footer.copy">© 2026 Dragon Ball Studio 龙球工作室</span>
-      <span data-i18n="footer.rights">保留所有权利。</span>
-    </div>
-  </div>
-</footer>
-
+<script src="js/jquery.min.js"></script>
+<script src="js/layout.js"></script>
 <script src="js/i18n/dict-common.js"></script>
 <script src="js/i18n/dict-monkey.js"></script>
 <script src="js/i18n/dict-mystery.js"></script>
@@ -346,6 +1001,43 @@
 <script src="js/i18n/dict-match.js"></script>
 <script src="js/i18n/dict-block.js"></script>
 <script src="js/i18n/dict-funbox.js"></script>
+<script src="js/i18n/dict-baby.js"></script>
+<script src="js/i18n/dict-chengyu.js"></script>
+<script src="js/i18n/dict-pocketledger.js"></script>
+<script src="js/i18n/dict-metronome.js"></script>
+<script src="js/i18n/dict-mood.js"></script>
+<script src="js/i18n/dict-birdcalc.js"></script>
+<script src="js/i18n/dict-lovetreasure.js"></script>
+<script src="js/i18n/dict-skinstudio.js"></script>
+<script src="js/i18n/dict-beads.js"></script>
+<script src="js/i18n/dict-checkin.js"></script>
+<script src="js/i18n/dict-lifehacks.js"></script>
+<script src="js/i18n/dict-shiguang.js"></script>
+<script src="js/i18n/dict-travel.js"></script>
+<script src="js/i18n/dict-xiaolu.js"></script>
+<script src="js/i18n/dict-accountkeeper.js"></script>
+<script src="js/i18n/dict-zilv.js"></script>
+<script src="js/i18n/dict-snake.js"></script>
+<script src="js/i18n/dict-tank.js"></script>
+<script src="js/i18n/dict-lumen.js"></script>
+<script src="js/i18n/dict-klotski.js"></script>
+<script src="js/i18n/dict-loveguide.js"></script>
+<script src="js/i18n/dict-encphoto.js"></script>
+<script src="js/i18n/dict-darkbox.js"></script>
+<script src="js/i18n/dict-nocturne.js"></script>
+<script src="js/i18n/dict-prism.js"></script>
+<script src="js/i18n/dict-sealbox.js"></script>
+<script src="js/i18n/dict-learnenglish.js"></script>
+<script src="js/i18n/dict-learnjapanese.js"></script>
+<script src="js/i18n/dict-aqua.js"></script>
+<script src="js/i18n/dict-learnpinyin.js"></script>
+<script src="js/i18n/dict-locklaunch.js"></script>
+<script src="js/i18n/dict-sysdash.js"></script>
+<script src="js/i18n/dict-pockettools.js"></script>
+<script src="js/i18n/dict-torchkit.js"></script>
+<script src="js/i18n/dict-ailearn.js"></script>
+<script src="js/i18n/dict-aimath.js"></script>
+<script src="js/i18n/dict-breath.js"></script>
 <script src="js/i18n/engine.js"></script>
 <script src="js/main.js"></script>
 </body>
